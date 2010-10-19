@@ -10,7 +10,7 @@ Allows you to add a critical thinking corner to your sidebar to ask questions ab
 
 == Description ==
 
-This plugin allows you to add questions, tips, reminders, and notes to the sidebar of a blog post.  It is geared towards educators (corporate and institutional) to enable a better learning environment.
+This plugin allows you to add questions, tips, reminders, and notes to the sidebar of a blog post.  It is geared towards educators (corporate and institutional) to enable a better <a href="http://www.intellum.com">E-learning</a> environment.
 
 Features include:
 
