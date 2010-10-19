@@ -2,7 +2,7 @@
 /*
 Plugin Name: Intellum E-Learning Plugin
 Plugin URI: http://www.intellum.com
-Version: v0.1.1
+Version: v0.1.2
 Author: <a href="http://www.intellum.com">Intellum</a>
 Description: Add specific questions to your blog post in the sidebar.
 
@@ -371,8 +371,8 @@ if (isset($IntellumElearning_plugin)) {
         add_action('admin_init', array(&$IntellumElearning_plugin, 'addAdminInit'), 1);
 	add_action('wp_footer', array(&$IntellumElearning_plugin, 'addFooterCode'), 1);
         add_action('admin_menu', 'IntellumElearning_ap');
-        add_action('IntellumElearning/IntellumElearning.php', array(&$IntellumElearning_plugin, 'init'));
-        add_action('activate_IntellumElearning/IntellumElearning.php', array(&$IntellumElearning_plugin, 'IntellumElearning_install'));
+        add_action('e-learning-critical-thinking/IntellumElearning.php', array(&$IntellumElearning_plugin, 'init'));
+        add_action('activate_e-learning-critical-thinking/IntellumElearning.php', array(&$IntellumElearning_plugin, 'IntellumElearning_install'));
 
 
         add_action('admin_menu', array(&$IntellumElearning_plugin, 'mytheme_add_box'),1);
