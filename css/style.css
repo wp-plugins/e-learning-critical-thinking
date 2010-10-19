@@ -1,0 +1,10 @@
+
+.Elearning_Tip {background:url(../img/star.png) no-repeat top left;}
+.Elearning_Question {background:url(../img/question.png) no-repeat top left}
+.Elearning_Note {background:url(../img/note.png) no-repeat top left}
+.Elearning_Reminder {background:url(../img/reminder.png) no-repeat top left}
+
+#elearning_wrapper h3.widget-title {padding:5px 0}
+
+#elearning_wrapper div.elearning_sidebar_wrapper h3 {font-weight:bold;}
+#elearning_wrapper div.elearning_sidebar_wrapper {padding-left:20px;}
