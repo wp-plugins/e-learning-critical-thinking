@@ -162,11 +162,11 @@ if (!class_exists("IntellumElearning")) {
 
                      //$user_info = get_userdata($user_ID);
 
-                     echo '<link type="text/css" rel="stylesheet" href="' . get_bloginfo('wpurl') . '/wp-content/plugins/IntellumElearning/css/style.css" />' . "\n";
+                     echo '<link type="text/css" rel="stylesheet" href="' . get_bloginfo('wpurl') . '/wp-content/plugins/e-learning-critical-thinking/css/style.css" />' . "\n";
 
                     if (function_exists('wp_enqueue_script')) {
-                        wp_enqueue_script('IntellumElearning_a', get_bloginfo('wpurl') . '/wp-content/plugins/IntellumElearning/js/jquery-ui-1.8.2.custom.min.js', array('jquery'), '0.1');
-                        wp_enqueue_script('IntellumElearning_b', get_bloginfo('wpurl') . '/wp-content/plugins/IntellumElearning/js/IntellumElearning.php', array('jquery'), '0.1');
+                        wp_enqueue_script('IntellumElearning_a', get_bloginfo('wpurl') . '/wp-content/plugins/e-learning-critical-thinking/js/jquery-ui-1.8.2.custom.min.js', array('jquery'), '0.1');
+                        wp_enqueue_script('IntellumElearning_b', get_bloginfo('wpurl') . '/wp-content/plugins/e-learning-critical-thinking/js/IntellumElearning.php', array('jquery'), '0.1');
 
                     }
 
@@ -179,7 +179,7 @@ if (!class_exists("IntellumElearning")) {
                 }
 
                 function addAdminHead() {
-                      print '<link rel="stylesheet" type="text/css" href="'.get_option('siteurl').'/wp-content/plugins/IntellumElearning/css/admin.css" />';
+                      print '<link rel="stylesheet" type="text/css" href="'.get_option('siteurl').'/wp-content/plugins/e-learning-critical-thinking/css/admin.css" />';
   
                   
                 }
@@ -187,7 +187,7 @@ if (!class_exists("IntellumElearning")) {
                 function addAdminInit() {
 
                       if (function_exists('wp_enqueue_script')) {
-                        wp_enqueue_script('IntellumElearning_admin', get_bloginfo('wpurl') . '/wp-content/plugins/IntellumElearning/js/admin.js', array('jquery'), '0.1');
+                        wp_enqueue_script('IntellumElearning_admin', get_bloginfo('wpurl') . '/wp-content/plugins/e-learning-critical-thinking/js/admin.js', array('jquery'), '0.1');
 
 
                     }
