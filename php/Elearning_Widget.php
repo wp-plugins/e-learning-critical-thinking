@@ -74,7 +74,7 @@ class Elearning_Widget extends WP_Widget {
 
                $admin_options = $IntellumElearning->getAdminOptions();
                         if ($admin_options['intellum_link']=='on') {
-                            echo '<a href="http://www.intellum.com">E-Learning</a> by Intellum';
+                            echo '<a href="http://www.intellum.com">Learning Management System</a> by Intellum';
                         }
 
             

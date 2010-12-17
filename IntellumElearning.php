@@ -2,7 +2,7 @@
 /*
 Plugin Name: Intellum E-Learning Plugin
 Plugin URI: http://www.intellum.com
-Version: v0.1.2
+Version: v0.1.3
 Author: <a href="http://www.intellum.com">Intellum</a>
 Description: Add specific questions to your blog post in the sidebar.
 
