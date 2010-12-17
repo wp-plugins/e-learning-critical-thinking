@@ -23,7 +23,7 @@ Features include:
 *   Sidebar reminders
 
 
-E-Learning Critical Thinking was built by Intellum, an <a href="http://www.intellum.com">E-Learning company</a>, to help educators who use WordPress.
+E-Learning Critical Thinking was built by Intellum, an <a href="http://www.intellum.com">LMS company</a>, to help educators who use WordPress.
 == Installation ==
 
 1. Download the plugin and upload into your wp-content/plugins  directory (unzip the file if you uploaded the zip).
